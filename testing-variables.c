@@ -27,9 +27,36 @@ int main()
     printf("\nLength is: %d\n", length);
     printf("Width is: %d\n", width);
     printf("Area is: %d\n", area);
+    // Scientific numbers
+    float f1 = 35e3;
+    double d1 = 12e4;
+    printf("%f\n", f1);
+    printf("%lf\n", d1);
+    // Memory size
 
+    printf("%lu\n", sizeof(x));
+    printf("%lu\n", sizeof(f1));
+    printf("This is the size of 12 to the 10th power: %lu\n", sizeof(d1));
 
+    // Type conversion, ex 5/2 = 2.5
 
+    float sum = (float) 5 / 2;
+    printf("%f\n", sum);
+
+    // Real world example
+
+    int maxScore = 500;
+    int userScore = 423;
+
+    float percentage = (float) userScore / maxScore * 100.0;
+    // %.2f is the amount of decimal places the float integer uses. In this case, 2.
+    printf("User's percentage is %.2f\n", percentage);
+
+    // Constants can be used by implementing const before the variable:
+
+    const float pi = 3.14;
+
+    
 
     return 0;
 }

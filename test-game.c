@@ -19,8 +19,7 @@ int main()
                     printf("You lose :( the number was %d\n", num);
                     return 0;
                 }
-                continue;
-                // commenting to test new setup                
+                continue;              
             } else if (myNum == num) {
                 printf("You're correct! The number is %d!\n", myNum);
                 return 0;

@@ -20,6 +20,7 @@ int main()
                     return 0;
                 }
                 continue;
+                // commenting to test new setup                
             } else if (myNum == num) {
                 printf("You're correct! The number is %d!\n", myNum);
                 return 0;
